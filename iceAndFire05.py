@@ -9,6 +9,8 @@ import pprint
 AOIF_CHAR = "https://www.anapioficeandfire.com/api/characters/"
 
 def main():
+    while True:
+        #os.system("clear")
         ## Ask user for input
         got_charToLookup = input("Pick a number between 1 and 1000 to return info on a GoT character! " )
 
@@ -33,6 +35,10 @@ def main():
         for book_api in got_dj['povBooks']:
             got_book = requests.get(book_api).json()
             pprint.pprint(got_book['name'])
+        
+        cont= input('\n Do you want to continue? (Y/N)')
+        if cont.upper() != "Y":
+            break
 
 if __name__ == "__main__":
         main()

@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+   <body>
+   
+      {% for r in groups %}
+      <h1> {{r['title']}} was made in {{r['year']}}</h1>
+      {% endfor %}
+      
+      <a href="/">Home</a>
+   </body>
+</html>
+

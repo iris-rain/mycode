@@ -1,0 +1,32 @@
+[
+    {
+        "hostname": "hostA",
+        "ip": "192.168.30.22",
+        "fqdn": "hostA.localdomain"
+    },
+    {
+        "hostname": "hostB",
+        "ip": "192.168.30.33",
+        "fqdn": "hostB.localdomain"
+    },
+    {
+        "hostname": "hostC",
+        "ip": "192.168.30.44",
+        "fqdn": "hostC.localdomain"
+    },
+    {
+        "hostname": "mytest",
+        "ip": "192.168.0.4",
+        "fqdn": "test"
+    },
+    {
+        "hostname": "test",
+        "ip": "192.134.11.22",
+        "fqdn": "wrrewe"
+    },
+    {
+        "hostname": "sdfasdd",
+        "ip": "sdfasd",
+        "fqdn": "sdfasdsd"
+    }
+]

@@ -1,0 +1,10 @@
+Database Instance: srvr2997
+Database Name: PCAL
+
+Database Instance: srvr2891
+Database Name: PCALSTG
+
+Mention that "@" is used as separator between DDLs.
+
+Add PowerCal into impact CI list
+

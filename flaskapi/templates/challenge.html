@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+   <body>
+   
+      {% for r in groups %}
+      <h1> {{r['ip']}} {{r['fqdn']}} # {{r['hostname']}}</h1>
+      {% endfor %}
+      
+      <a href="/addhost">Add Host</a>
+   </body>
+</html>
+
